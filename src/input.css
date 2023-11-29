@@ -22,7 +22,7 @@
   h6 {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    @apply sm:text-4xl md:text-4xl lg:text-[64px] xl:text-[64px] font-bold;
+    @apply sm:text-[40px] md:text-[40px] lg:text-[40px] xl:text-[70px] font-extrabold leading-none tracking-[-0.64px];
   }
 
   p {
@@ -35,19 +35,14 @@
     @apply bg-[url('../image/')];
   }
 
-  .features-list {
-    @apply font-bold sm:text-lg md:text-lg lg:text-xl xl:text-xl;
-  }
-
-  .roadmap-section {
-    @apply mx-auto my-7 block max-w-xl space-y-3 rounded-xl bg-gradient-to-r from-softGreen p-2 shadow-xl;
-  }
-
   .footer {
     @apply mx-auto max-w-7xl px-1;
   }
 
   .footer-footer {
-    @apply grid grid-cols-1 gap-5 px-0.5 pt-10 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2;
+    @apply grid grid-cols-1 gap-5 px-0.5 pt-10 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 cursor-pointer;
+  }
+  .btn {
+    @apply rounded-md bg-black/70 text-white px-2 py-1.5 hover:ring-2 text-center cursor-pointer;
   }
 }

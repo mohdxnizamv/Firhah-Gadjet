@@ -12,7 +12,7 @@
   body {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    @apply sm:text-sm md:text-sm lg:text-base xl:text-base text-gray-400;
+    @apply sm:text-sm md:text-sm lg:text-base xl:text-base text-gray-400 bg-gray-900;
   }
   h1,
   h2,
@@ -31,7 +31,7 @@
 }
 
 @layer components {
-  .images-honor {
+  .images-firhah {
     @apply bg-[url('../image/')];
   }
 

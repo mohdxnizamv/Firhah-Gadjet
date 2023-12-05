@@ -12,7 +12,7 @@
   body {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    @apply sm:text-sm md:text-sm lg:text-base xl:text-base bg-gradient-to-r from-purple-200 via-zinc-200 to-gray-300;
+    @apply sm:text-sm md:text-sm lg:text-base xl:text-base bg-[#D0F288] text-gray-800;
   }
   h1,
   h2,

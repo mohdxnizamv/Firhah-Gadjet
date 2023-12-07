@@ -12,21 +12,20 @@
   body {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    @apply sm:text-sm md:text-sm lg:text-base xl:text-base bg-[#D0F288] text-gray-800;
+    @apply xs:text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#D0F288] text-gray-800;
   }
-  h1,
+  h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    @apply xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none font-medium;
+  }
   h2,
   h3,
   h4,
   h5,
-  h6 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    @apply sm:text-[40px] md:text-[40px] lg:text-[40px] xl:text-[70px] font-extrabold leading-none tracking-[-0.64px];
-  }
-
+  h6,
   p {
-    @apply leading-none text-sm font-medium;
+    @apply leading-none xs:text-sm sm:text-base md:text-xl lg:text-xl xl:text-2xl;
   }
 }
 
@@ -40,7 +39,7 @@
   }
 
   .footer-footer {
-    @apply grid grid-cols-1 gap-5 px-0.5 pt-10 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 cursor-pointer;
+    @apply grid gap-5 px-0.5 pt-10 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 cursor-pointer hover:font-bold;
   }
   .btn {
     @apply rounded-md bg-black/70 text-white px-2 py-1.5 hover:ring-2 text-center cursor-pointer;

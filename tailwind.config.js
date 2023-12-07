@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     fontFamily: {},
     screens: {
-      sm: "360px",
+      xs: "360px",
+      sm: "400px",
       md: "760px",
       lg: "1280px",
       xl: "1440px",

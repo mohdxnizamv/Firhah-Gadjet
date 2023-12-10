@@ -39,17 +39,21 @@
   }
 
   .footer-footer {
-    @apply grid gap-5 px-0.5 pt-10 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 cursor-pointer hover:font-bold;
+    @apply grid gap-5 px-0.5 pt-10 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 cursor-pointer;
   }
   .btn {
     @apply rounded-md bg-black/70 text-white px-2 py-1.5 hover:ring-2 text-center cursor-pointer;
   }
   .btn2 {
-    @apply relative -left-1 -top-1 bg-gray-800 px-3 py-1.5 uppercase text-white transition-all before:absolute before:left-1 before:top-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-gray-700 before:transition-all before:content-[''] hover:left-0 hover:top-0 before:hover:left-0 before:hover:top-0;
+    @apply relative -left-1 -top-1 bg-gray-800 px-3 py-1.5 font-semibold text-white transition-all before:absolute before:left-1 before:top-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-gray-700 before:transition-all before:content-[''] hover:left-0 hover:top-0 before:hover:left-0 before:hover:top-0;
   }
   .btn3 {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     @apply mx-auto mt-6 w-44 rounded-lg bg-black/75 px-3 py-1.5 text-sm text-white hover:text-black;
+  }
+
+  .locate {
+    @apply w-20 mx-auto;
   }
 }

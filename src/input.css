@@ -45,7 +45,7 @@
     @apply rounded-md bg-black/70 text-white px-2 py-1.5 hover:ring-2 text-center cursor-pointer;
   }
   .btn2 {
-    @apply relative -left-1 -top-1 bg-gray-800 px-3 py-1.5 font-semibold text-white transition-all before:absolute before:left-1 before:top-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-gray-700 before:transition-all before:content-[''] hover:left-0 hover:top-0 before:hover:left-0 before:hover:top-0;
+    @apply text-center relative -left-1 -top-1 bg-gray-800 px-6 py-1.5 font-semibold text-white transition-all before:absolute before:left-1 before:top-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-gray-700 before:transition-all before:content-[''] hover:left-0 hover:top-0 before:hover:left-0 before:hover:top-0;
   }
   .btn3 {
     font-family: "DM Sans", sans-serif;
@@ -55,5 +55,13 @@
 
   .locate {
     @apply w-20 mx-auto;
+  }
+
+  .slide {
+    @apply rounded-2xl;
+  }
+
+  .swiper {
+    @apply sm:w-[375px] sm:h-[600px];
   }
 }
